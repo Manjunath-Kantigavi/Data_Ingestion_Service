@@ -20,7 +20,7 @@ app.use('/api/carbon-sinks', carbonSinkRoutes);
 
 // Basic route to check if the server is running
 app.get('/', (req, res) => {
-  res.send('Server is up and running!');
+  res.send(' Data-Ingestion Servivce ->Server is up and running!');
 });
 connectDB();
 // Start the server
